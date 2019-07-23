@@ -1,0 +1,23 @@
+{
+  "name": "@hackmd/path-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "mocha --require @babel/register"
+  },
+  "keywords": [],
+  "author": "raccoon lee <raccoon@hackmd.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "standard": "^13.1.0"
+  }
+}
